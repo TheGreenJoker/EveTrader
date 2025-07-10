@@ -44,8 +44,6 @@ def filter_items(items, min_profit_percent, min_volume_per_day):
     return filtered_final
 
 
-import downloader as d
-
 def print_filtered_items(items):
     """
     Affiche la liste des items filtrés sous forme de tableau avec noms.
