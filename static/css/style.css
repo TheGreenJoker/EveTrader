@@ -1,0 +1,100 @@
+body {
+    background-image: url('/../static/img/background.png');
+    background-attachment: fixed; /* ← Ceci fixe l'image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ccc;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #0ff3;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    background-color: #111;
+    border: 1px solid #555;
+    color: #eee;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+button {
+    background-color: #0a84ff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 200px;
+    color: white;
+    fill: white;
+}
+
+.table-container {
+    margin-top: 30px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #111;
+    color: #eee;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: left;
+}
+
+th {
+    background-color: #222;
+}
+
+#loading {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    color: #0af;
+    font-weight: bold;
+}
