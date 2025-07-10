@@ -1,13 +1,9 @@
 import requests
 import time
 
-
 _item_name_cache = {}
+
 def get_item_name(type_id):
-    """
-    Récupère le nom d’un item EVE Online via l’ESI.
-    Utilise un cache simple pour éviter les appels répétés.
-    """
     if type_id in _item_name_cache:
         return _item_name_cache[type_id]
     
@@ -23,25 +19,43 @@ def get_item_name(type_id):
 
 
 def get_all_type_ids(region_id):
-    """Récupère tous les type_id disponibles pour le marché d'une région."""
     url = f"https://esi.evetech.net/latest/markets/{region_id}/types/"
     response = requests.get(url)
     response.raise_for_status()
     return response.json()
 
 
-def get_average_volume_per_day(region_id, type_id, days=7):
-    """Retourne la moyenne du volume vendu par jour pour un type_id sur les derniers jours."""
+def get_market_history(region_id, type_id, days=7):
     url = f"https://esi.evetech.net/latest/markets/{region_id}/history/?type_id={type_id}"
     response = requests.get(url)
     if response.status_code != 200:
+        return []
+    return response.json()[-days:]  # derniers jours
+
+
+def estimate_bought_vs_sold(history, min_sell_price, max_buy_price, tolerance=0.02):
+    volume_bought = 0
+    volume_sold = 0
+
+    for day in history:
+        price = day['average']
+        volume = day['volume']
+        if min_sell_price and abs(price - min_sell_price) / min_sell_price <= tolerance:
+            volume_bought += volume
+        elif max_buy_price and abs(price - max_buy_price) / max_buy_price <= tolerance:
+            volume_sold += volume
+        else:
+            # Ignoré si on ne peut pas l’attribuer de manière fiable
+            pass
+
+    return volume_bought / len(history), volume_sold / len(history)
+
+
+def get_average_volume_per_day(region_id, type_id, days=7):
+    history = get_market_history(region_id, type_id, days)
+    if not history:
         return 0
-    history = response.json()
-    if len(history) == 0:
-        return 0
-    recent_days = history[-days:]
-    avg_volume = sum(day['volume'] for day in recent_days) / len(recent_days)
-    return avg_volume
+    return sum(day['volume'] for day in history) / len(history)
 
 
 def get_market_orders(region_id, order_type):
@@ -62,17 +76,15 @@ def get_market_orders(region_id, order_type):
             break
         page += 1
         time.sleep(0.1)
-    print(f"  ✓  {order_type} orders récupérés")
+    print(f"  ✓  {order_type} orders retrieved")
     return orders
 
 
 def filter_orders_by_item_and_station(orders, type_id, station_id):
-    """Filtre les ordres pour un item donné et une station spécifique."""
     return [o for o in orders if o['type_id'] == type_id and o['location_id'] == station_id]
 
 
 def summarize_item_market_data(type_id, region_id, station_id, avg_volume, sell_orders, buy_orders):
-    """Produit un résumé des données de marché pour un item donné."""
     sell_filtered = filter_orders_by_item_and_station(sell_orders, type_id, station_id)
     buy_filtered = filter_orders_by_item_and_station(buy_orders, type_id, station_id)
 
@@ -81,18 +93,22 @@ def summarize_item_market_data(type_id, region_id, station_id, avg_volume, sell_
     total_sell_volume = sum([o['volume_remain'] for o in sell_filtered])
     total_buy_volume = sum([o['volume_remain'] for o in buy_filtered])
 
+    history = get_market_history(region_id, type_id, days=7)
+    avg_bought, avg_sold = estimate_bought_vs_sold(history, min_sell, max_buy)
+
     return {
         'type_id': type_id,
         'avg_volume_per_day': avg_volume,
+        'avg_daily_bought': avg_bought,
+        'avg_daily_sold': avg_sold,
         'min_sell_price': min_sell,
         'max_buy_price': max_buy,
         'total_sell_volume': total_sell_volume,
-        'total_buy_volume': total_buy_volume
+        'total_buy_volume': total_buy_volume,
     }
 
 
 def get_top_traded_items(region_id, station_id, top_n=100):
-    """Orchestre le traitement complet : top items vendus avec données marché."""
     type_ids = get_all_type_ids(region_id)
     
     avg_volumes = []
@@ -102,22 +118,21 @@ def get_top_traded_items(region_id, station_id, top_n=100):
         if avg_volume > 0:
             avg_volumes.append((type_id, avg_volume))
         print(f"  -> progression {i}/{total}", end='\r')
-        time.sleep(0.1)  # Garde le sleep pour pas spammer trop l'API
+        time.sleep(0.1)
 
-    print("  ✓  Calcul volumes terminé")
+    print("  ✓  Average volume calculation complete")
 
     top_items = sorted(avg_volumes, key=lambda x: x[1], reverse=True)[:top_n]
     sell_orders = get_market_orders(region_id, 'sell')
     buy_orders = get_market_orders(region_id, 'buy')
 
-    print(f"  -> Récupération des ordres terminée, traitement des {len(top_items)} top items...")
+    print(f"  -> Processing top {len(top_items)} items...")
 
     result = []
-    total_top = len(top_items)
     for i, (type_id, avg_volume) in enumerate(top_items, 1):
         summary = summarize_item_market_data(type_id, region_id, station_id, avg_volume, sell_orders, buy_orders)
         result.append(summary)
-        print(f"  -> progression {i}/{total_top}", end='\r')
+        print(f"  -> progression {i}/{len(top_items)}", end='\r')
 
-    print("  ✓  Résumé des items terminé")
+    print("  ✓  Item summaries complete")
     return result
