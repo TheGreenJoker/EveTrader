@@ -22,7 +22,6 @@ def get_average_volume_per_day(region_id, type_id, days=7):
     return avg_volume
 
 def get_market_orders(region_id, order_type):
-    """Récupère tous les ordres d'achat ou de vente dans une région."""
     assert order_type in ['buy', 'sell']
     orders = []
     page = 1
@@ -35,10 +34,12 @@ def get_market_orders(region_id, order_type):
         if not data:
             break
         orders.extend(data)
+        print(f"  -> {order_type} orders page {page}", end='\r')
         if 'X-Pages' in response.headers and page >= int(response.headers['X-Pages']):
             break
         page += 1
         time.sleep(0.1)
+    print(f"  ✓  {order_type} orders récupérés")
     return orders
 
 def filter_orders_by_item_and_station(orders, type_id, station_id):
@@ -67,21 +68,30 @@ def summarize_item_market_data(type_id, region_id, station_id, avg_volume, sell_
 def get_top_traded_items(region_id, station_id, top_n=100):
     """Orchestre le traitement complet : top items vendus avec données marché."""
     type_ids = get_all_type_ids(region_id)
-
+    
     avg_volumes = []
-    for type_id in type_ids:
+    total = len(type_ids)
+    for i, type_id in enumerate(type_ids, 1):
         avg_volume = get_average_volume_per_day(region_id, type_id)
         if avg_volume > 0:
             avg_volumes.append((type_id, avg_volume))
-        time.sleep(0.1)
+        print(f"  -> progression {i}/{total}", end='\r')
+        time.sleep(0.1)  # Garde le sleep pour pas spammer trop l'API
+
+    print("  ✓  Calcul volumes terminé")
 
     top_items = sorted(avg_volumes, key=lambda x: x[1], reverse=True)[:top_n]
     sell_orders = get_market_orders(region_id, 'sell')
     buy_orders = get_market_orders(region_id, 'buy')
 
+    print(f"  -> Récupération des ordres terminée, traitement des {len(top_items)} top items...")
+
     result = []
-    for type_id, avg_volume in top_items:
+    total_top = len(top_items)
+    for i, (type_id, avg_volume) in enumerate(top_items, 1):
         summary = summarize_item_market_data(type_id, region_id, station_id, avg_volume, sell_orders, buy_orders)
         result.append(summary)
+        print(f"  -> progression {i}/{total_top}", end='\r')
 
+    print("  ✓  Résumé des items terminé")
     return result
