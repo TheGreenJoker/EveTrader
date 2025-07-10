@@ -46,7 +46,7 @@ def filter_items(items, min_profit_percent, min_volume_per_day):
 
 def print_filtered_items(items):
     """
-    Affiche la liste des items filtrés sous forme de tableau avec noms.
+    Displays the list of filtered items as a formatted table with names.
     """
 
     widths = {
@@ -60,11 +60,11 @@ def print_filtered_items(items):
 
     header = (
         f"{'Type ID':<{widths['type_id']}} | "
-        f"{'Nom':<{widths['name']}} | "
+        f"{'Name':<{widths['name']}} | "
         f"{'Profit %':>{widths['profit_percent']}} | "
-        f"{'Volume/jour':>{widths['volume']}} | "
-        f"{'Prix vente min':>{widths['min_sell_price']}} | "
-        f"{'Prix achat max':>{widths['max_buy_price']}}"
+        f"{'Volume/day':>{widths['volume']}} | "
+        f"{'Min Sell Price':>{widths['min_sell_price']}} | "
+        f"{'Max Buy Price':>{widths['max_buy_price']}}"
     )
     print(header)
     print('-' * len(header))
