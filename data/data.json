@@ -1,0 +1,1002 @@
+[
+    {
+        "type_id": 34,
+        "avg_volume_per_day": 5514987848.0,
+        "avg_daily_bought": 4638084819.714286,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 4.05,
+        "max_buy_price": 3.95,
+        "total_sell_volume": 21009293672,
+        "total_buy_volume": 12404504415
+    },
+    {
+        "type_id": 35,
+        "avg_volume_per_day": 2647610335.714286,
+        "avg_daily_bought": 612724158.8571428,
+        "avg_daily_sold": 668964000.8571428,
+        "min_sell_price": 31.37,
+        "max_buy_price": 29.11,
+        "total_sell_volume": 2381689656,
+        "total_buy_volume": 1536264326
+    },
+    {
+        "type_id": 36,
+        "avg_volume_per_day": 693022398.1428572,
+        "avg_daily_bought": 495249120.71428573,
+        "avg_daily_sold": 121347479.71428572,
+        "min_sell_price": 80.0,
+        "max_buy_price": 74.9,
+        "total_sell_volume": 818066378,
+        "total_buy_volume": 703431338
+    },
+    {
+        "type_id": 37,
+        "avg_volume_per_day": 210714499.2857143,
+        "avg_daily_bought": 154404278.2857143,
+        "avg_daily_sold": 32391125.85714286,
+        "min_sell_price": 349.0,
+        "max_buy_price": 346.1,
+        "total_sell_volume": 593326156,
+        "total_buy_volume": 298115672
+    },
+    {
+        "type_id": 38,
+        "avg_volume_per_day": 55740561.71428572,
+        "avg_daily_bought": 45520238.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 1010.0,
+        "max_buy_price": 977.9,
+        "total_sell_volume": 90901846,
+        "total_buy_volume": 53180604
+    },
+    {
+        "type_id": 1230,
+        "avg_volume_per_day": 27398628.42857143,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 24303693.714285713,
+        "min_sell_price": 12.9,
+        "max_buy_price": 11.79,
+        "total_sell_volume": 347459706,
+        "total_buy_volume": 54448375
+    },
+    {
+        "type_id": 39,
+        "avg_volume_per_day": 21516426.285714287,
+        "avg_daily_bought": 14094886.0,
+        "avg_daily_sold": 7421540.285714285,
+        "min_sell_price": 2144.0,
+        "max_buy_price": 2066.0,
+        "total_sell_volume": 115356966,
+        "total_buy_volume": 41893846
+    },
+    {
+        "type_id": 40,
+        "avg_volume_per_day": 13399934.0,
+        "avg_daily_bought": 8129549.428571428,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 4665.0,
+        "max_buy_price": 4623.0,
+        "total_sell_volume": 26772337,
+        "total_buy_volume": 29068998
+    },
+    {
+        "type_id": 1228,
+        "avg_volume_per_day": 12925187.0,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 5464155.714285715,
+        "min_sell_price": 27.59,
+        "max_buy_price": 24.27,
+        "total_sell_volume": 10171045,
+        "total_buy_volume": 32755958
+    },
+    {
+        "type_id": 222,
+        "avg_volume_per_day": 4025367.1428571427,
+        "avg_daily_bought": 704024.2857142857,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 29.18,
+        "max_buy_price": 26.05,
+        "total_sell_volume": 41192612,
+        "total_buy_volume": 41686818
+    },
+    {
+        "type_id": 185,
+        "avg_volume_per_day": 3615964.5714285714,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 47.96,
+        "max_buy_price": 21.23,
+        "total_sell_volume": 14866662,
+        "total_buy_volume": 18205300
+    },
+    {
+        "type_id": 209,
+        "avg_volume_per_day": 3378444.5714285714,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 1448944.0,
+        "min_sell_price": 74.43,
+        "max_buy_price": 71.04,
+        "total_sell_volume": 13481873,
+        "total_buy_volume": 20488125
+    },
+    {
+        "type_id": 20,
+        "avg_volume_per_day": 2807720.1428571427,
+        "avg_daily_bought": 1225038.7142857143,
+        "avg_daily_sold": 1395172.5714285714,
+        "min_sell_price": 896.0,
+        "max_buy_price": 833.3,
+        "total_sell_volume": 11821989,
+        "total_buy_volume": 5090993
+    },
+    {
+        "type_id": 184,
+        "avg_volume_per_day": 2785624.1428571427,
+        "avg_daily_bought": 2785624.1428571427,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 24.97,
+        "max_buy_price": 20.18,
+        "total_sell_volume": 14752393,
+        "total_buy_volume": 15470678
+    },
+    {
+        "type_id": 210,
+        "avg_volume_per_day": 2741934.8571428573,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 416627.85714285716,
+        "min_sell_price": 15.99,
+        "max_buy_price": 14.84,
+        "total_sell_volume": 45711297,
+        "total_buy_volume": 57918508
+    },
+    {
+        "type_id": 230,
+        "avg_volume_per_day": 2117167.714285714,
+        "avg_daily_bought": 425123.71428571426,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 148.9,
+        "max_buy_price": 105.1,
+        "total_sell_volume": 18178289,
+        "total_buy_volume": 11966812
+    },
+    {
+        "type_id": 183,
+        "avg_volume_per_day": 1719181.4285714286,
+        "avg_daily_bought": 12866.714285714286,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 23.83,
+        "max_buy_price": 11.58,
+        "total_sell_volume": 50373943,
+        "total_buy_volume": 19113224
+    },
+    {
+        "type_id": 18,
+        "avg_volume_per_day": 1610502.2857142857,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 1610502.2857142857,
+        "min_sell_price": 90.0,
+        "max_buy_price": 44.62,
+        "total_sell_volume": 297662,
+        "total_buy_volume": 46321916
+    },
+    {
+        "type_id": 1224,
+        "avg_volume_per_day": 1601262.142857143,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 402718.28571428574,
+        "min_sell_price": 55.39,
+        "max_buy_price": 41.42,
+        "total_sell_volume": 10499395,
+        "total_buy_volume": 20363141
+    },
+    {
+        "type_id": 212,
+        "avg_volume_per_day": 1393557.142857143,
+        "avg_daily_bought": 75021.42857142857,
+        "avg_daily_sold": 471579.14285714284,
+        "min_sell_price": 22.4,
+        "max_buy_price": 20.28,
+        "total_sell_volume": 15463878,
+        "total_buy_volume": 54902151
+    },
+    {
+        "type_id": 207,
+        "avg_volume_per_day": 1372829.4285714286,
+        "avg_daily_bought": 421075.4285714286,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 133.7,
+        "max_buy_price": 121.0,
+        "total_sell_volume": 5596481,
+        "total_buy_volume": 12101714
+    },
+    {
+        "type_id": 238,
+        "avg_volume_per_day": 1147969.2857142857,
+        "avg_daily_bought": 522773.71428571426,
+        "avg_daily_sold": 28267.85714285714,
+        "min_sell_price": 319.9,
+        "max_buy_price": 287.0,
+        "total_sell_volume": 6574425,
+        "total_buy_volume": 15541907
+    },
+    {
+        "type_id": 213,
+        "avg_volume_per_day": 1054437.7142857143,
+        "avg_daily_bought": 909622.5714285715,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 11.24,
+        "max_buy_price": 10.8,
+        "total_sell_volume": 20120810,
+        "total_buy_volume": 19710871
+    },
+    {
+        "type_id": 203,
+        "avg_volume_per_day": 1052900.4285714286,
+        "avg_daily_bought": 223244.7142857143,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 287.8,
+        "max_buy_price": 235.2,
+        "total_sell_volume": 4986153,
+        "total_buy_volume": 20875120
+    },
+    {
+        "type_id": 27453,
+        "avg_volume_per_day": 1025886.2857142857,
+        "avg_daily_bought": 117630.28571428571,
+        "avg_daily_sold": 718877.5714285715,
+        "min_sell_price": 1145.0,
+        "max_buy_price": 1016.0,
+        "total_sell_volume": 1809238,
+        "total_buy_volume": 13018498
+    },
+    {
+        "type_id": 228,
+        "avg_volume_per_day": 1015479.1428571428,
+        "avg_daily_bought": 309368.5714285714,
+        "avg_daily_sold": 10713.142857142857,
+        "min_sell_price": 132.0,
+        "max_buy_price": 82.71,
+        "total_sell_volume": 6278833,
+        "total_buy_volume": 12229490
+    },
+    {
+        "type_id": 231,
+        "avg_volume_per_day": 1009541.0,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 476063.71428571426,
+        "min_sell_price": 58.0,
+        "max_buy_price": 49.0,
+        "total_sell_volume": 3463237,
+        "total_buy_volume": 10758311
+    },
+    {
+        "type_id": 211,
+        "avg_volume_per_day": 973657.2857142857,
+        "avg_daily_bought": 613181.5714285715,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 13.89,
+        "max_buy_price": 8.17,
+        "total_sell_volume": 6215717,
+        "total_buy_volume": 36313934
+    },
+    {
+        "type_id": 217,
+        "avg_volume_per_day": 972729.2857142857,
+        "avg_daily_bought": 362166.5714285714,
+        "avg_daily_sold": 82305.0,
+        "min_sell_price": 7.5,
+        "max_buy_price": 6.46,
+        "total_sell_volume": 20191292,
+        "total_buy_volume": 23918332
+    },
+    {
+        "type_id": 202,
+        "avg_volume_per_day": 931861.4285714285,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 159062.42857142858,
+        "min_sell_price": 448.0,
+        "max_buy_price": 373.2,
+        "total_sell_volume": 4588107,
+        "total_buy_volume": 12024434
+    },
+    {
+        "type_id": 1227,
+        "avg_volume_per_day": 897367.2857142857,
+        "avg_daily_bought": 268238.5714285714,
+        "avg_daily_sold": 235259.57142857142,
+        "min_sell_price": 420.0,
+        "max_buy_price": 380.1,
+        "total_sell_volume": 7114802,
+        "total_buy_volume": 726194
+    },
+    {
+        "type_id": 267,
+        "avg_volume_per_day": 890246.0,
+        "avg_daily_bought": 342411.71428571426,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 319.0,
+        "max_buy_price": 280.3,
+        "total_sell_volume": 2771824,
+        "total_buy_volume": 110624352
+    },
+    {
+        "type_id": 193,
+        "avg_volume_per_day": 865605.2857142857,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 134.1,
+        "max_buy_price": 100.1,
+        "total_sell_volume": 28955394,
+        "total_buy_volume": 12316054
+    },
+    {
+        "type_id": 215,
+        "avg_volume_per_day": 829246.7142857143,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 5.88,
+        "max_buy_price": 3.85,
+        "total_sell_volume": 132801487,
+        "total_buy_volume": 21051840
+    },
+    {
+        "type_id": 218,
+        "avg_volume_per_day": 823765.8571428572,
+        "avg_daily_bought": 49025.57142857143,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 8.9,
+        "max_buy_price": 6.0,
+        "total_sell_volume": 55394239,
+        "total_buy_volume": 21184570
+    },
+    {
+        "type_id": 33362,
+        "avg_volume_per_day": 813129.4285714285,
+        "avg_daily_bought": 664134.5714285715,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 17900.0,
+        "max_buy_price": 17550.0,
+        "total_sell_volume": 2603475,
+        "total_buy_volume": 706842
+    },
+    {
+        "type_id": 205,
+        "avg_volume_per_day": 768958.5714285715,
+        "avg_daily_bought": 100718.28571428571,
+        "avg_daily_sold": 668240.2857142857,
+        "min_sell_price": 192.9,
+        "max_buy_price": 174.1,
+        "total_sell_volume": 16383702,
+        "total_buy_volume": 12158641
+    },
+    {
+        "type_id": 178,
+        "avg_volume_per_day": 719843.1428571428,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 28552.14285714286,
+        "min_sell_price": 17.44,
+        "max_buy_price": 3.22,
+        "total_sell_volume": 5482695,
+        "total_buy_volume": 16026435
+    },
+    {
+        "type_id": 216,
+        "avg_volume_per_day": 715590.7142857143,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 96228.71428571429,
+        "min_sell_price": 5.55,
+        "max_buy_price": 4.71,
+        "total_sell_volume": 2579969,
+        "total_buy_volume": 17154324
+    },
+    {
+        "type_id": 33359,
+        "avg_volume_per_day": 698185.1428571428,
+        "avg_daily_bought": 698185.1428571428,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 13160.0,
+        "max_buy_price": 13010.0,
+        "total_sell_volume": 2833885,
+        "total_buy_volume": 664591
+    },
+    {
+        "type_id": 206,
+        "avg_volume_per_day": 682669.8571428572,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 63.0,
+        "max_buy_price": 56.0,
+        "total_sell_volume": 8220345,
+        "total_buy_volume": 31684012
+    },
+    {
+        "type_id": 208,
+        "avg_volume_per_day": 669437.0,
+        "avg_daily_bought": 226366.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 84.0,
+        "max_buy_price": 76.68,
+        "total_sell_volume": 5071363,
+        "total_buy_volume": 15650761
+    },
+    {
+        "type_id": 227,
+        "avg_volume_per_day": 661198.5714285715,
+        "avg_daily_bought": 489434.4285714286,
+        "avg_daily_sold": 18475.571428571428,
+        "min_sell_price": 88.25,
+        "max_buy_price": 77.05,
+        "total_sell_volume": 15172472,
+        "total_buy_volume": 11925653
+    },
+    {
+        "type_id": 237,
+        "avg_volume_per_day": 626766.4285714285,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 10078.857142857143,
+        "min_sell_price": 108.0,
+        "max_buy_price": 96.0,
+        "total_sell_volume": 7357203,
+        "total_buy_volume": 10369564
+    },
+    {
+        "type_id": 266,
+        "avg_volume_per_day": 617075.5714285715,
+        "avg_daily_bought": 617075.5714285715,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 11.52,
+        "max_buy_price": 8.0,
+        "total_sell_volume": 42760234,
+        "total_buy_volume": 17601009
+    },
+    {
+        "type_id": 232,
+        "avg_volume_per_day": 600566.8571428572,
+        "avg_daily_bought": 10061.42857142857,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 65.03,
+        "max_buy_price": 55.02,
+        "total_sell_volume": 3249538,
+        "total_buy_volume": 11227123
+    },
+    {
+        "type_id": 223,
+        "avg_volume_per_day": 563682.0,
+        "avg_daily_bought": 195541.14285714287,
+        "avg_daily_sold": 80374.71428571429,
+        "min_sell_price": 52.95,
+        "max_buy_price": 28.36,
+        "total_sell_volume": 7111708,
+        "total_buy_volume": 12858939
+    },
+    {
+        "type_id": 191,
+        "avg_volume_per_day": 561728.0,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 107.5,
+        "max_buy_price": 61.04,
+        "total_sell_volume": 14080839,
+        "total_buy_volume": 12009135
+    },
+    {
+        "type_id": 201,
+        "avg_volume_per_day": 559890.5714285715,
+        "avg_daily_bought": 15194.42857142857,
+        "avg_daily_sold": 64099.28571428572,
+        "min_sell_price": 292.0,
+        "max_buy_price": 230.0,
+        "total_sell_volume": 3875661,
+        "total_buy_volume": 10724597
+    },
+    {
+        "type_id": 220,
+        "avg_volume_per_day": 541865.7142857143,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 24.56,
+        "max_buy_price": 19.01,
+        "total_sell_volume": 55058120,
+        "total_buy_volume": 11723494
+    },
+    {
+        "type_id": 1231,
+        "avg_volume_per_day": 533371.2857142857,
+        "avg_daily_bought": 485902.71428571426,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 2248.0,
+        "max_buy_price": 2063.0,
+        "total_sell_volume": 6798853,
+        "total_buy_volume": 2149304
+    },
+    {
+        "type_id": 221,
+        "avg_volume_per_day": 515938.28571428574,
+        "avg_daily_bought": 306938.5714285714,
+        "avg_daily_sold": 208999.7142857143,
+        "min_sell_price": 11.37,
+        "max_buy_price": 11.22,
+        "total_sell_volume": 6540456,
+        "total_buy_volume": 22222842
+    },
+    {
+        "type_id": 199,
+        "avg_volume_per_day": 508452.14285714284,
+        "avg_daily_bought": 484744.28571428574,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 165.7,
+        "max_buy_price": 165.6,
+        "total_sell_volume": 5064180,
+        "total_buy_volume": 11161395
+    },
+    {
+        "type_id": 33360,
+        "avg_volume_per_day": 435735.85714285716,
+        "avg_daily_bought": 126627.14285714286,
+        "avg_daily_sold": 68154.71428571429,
+        "min_sell_price": 17110.0,
+        "max_buy_price": 16980.0,
+        "total_sell_volume": 4454090,
+        "total_buy_volume": 579454
+    },
+    {
+        "type_id": 33361,
+        "avg_volume_per_day": 423453.14285714284,
+        "avg_daily_bought": 423453.14285714284,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 14210.0,
+        "max_buy_price": 14130.0,
+        "total_sell_volume": 4215979,
+        "total_buy_volume": 601039
+    },
+    {
+        "type_id": 13119,
+        "avg_volume_per_day": 392613.4285714286,
+        "avg_daily_bought": 392613.4285714286,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 60.92,
+        "max_buy_price": 56.75,
+        "total_sell_volume": 10116563,
+        "total_buy_volume": 10074902
+    },
+    {
+        "type_id": 204,
+        "avg_volume_per_day": 388561.5714285714,
+        "avg_daily_bought": 147725.57142857142,
+        "avg_daily_sold": 18231.571428571428,
+        "min_sell_price": 194.5,
+        "max_buy_price": 187.5,
+        "total_sell_volume": 3527334,
+        "total_buy_volume": 11226276
+    },
+    {
+        "type_id": 200,
+        "avg_volume_per_day": 371332.71428571426,
+        "avg_daily_bought": 293249.5714285714,
+        "avg_daily_sold": 7736.428571428572,
+        "min_sell_price": 200.0,
+        "max_buy_price": 157.0,
+        "total_sell_volume": 11465858,
+        "total_buy_volume": 10249342
+    },
+    {
+        "type_id": 44,
+        "avg_volume_per_day": 330639.71428571426,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 275162.14285714284,
+        "min_sell_price": 12900.0,
+        "max_buy_price": 11600.0,
+        "total_sell_volume": 2655549,
+        "total_buy_volume": 628860
+    },
+    {
+        "type_id": 194,
+        "avg_volume_per_day": 300569.28571428574,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 274961.4285714286,
+        "min_sell_price": 36.99,
+        "max_buy_price": 30.5,
+        "total_sell_volume": 2818062,
+        "total_buy_volume": 11701461
+    },
+    {
+        "type_id": 195,
+        "avg_volume_per_day": 294301.14285714284,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 35.0,
+        "max_buy_price": 20.0,
+        "total_sell_volume": 2227038,
+        "total_buy_volume": 11218601
+    },
+    {
+        "type_id": 219,
+        "avg_volume_per_day": 290386.5714285714,
+        "avg_daily_bought": 104008.42857142857,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 12.82,
+        "max_buy_price": 8.14,
+        "total_sell_volume": 39900027,
+        "total_buy_volume": 27492074
+    },
+    {
+        "type_id": 224,
+        "avg_volume_per_day": 258697.85714285713,
+        "avg_daily_bought": 74209.57142857143,
+        "avg_daily_sold": 153534.7142857143,
+        "min_sell_price": 16.4,
+        "max_buy_price": 11.27,
+        "total_sell_volume": 10852408,
+        "total_buy_volume": 14423266
+    },
+    {
+        "type_id": 236,
+        "avg_volume_per_day": 256051.0,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 150565.57142857142,
+        "min_sell_price": 108.0,
+        "max_buy_price": 90.0,
+        "total_sell_volume": 5953483,
+        "total_buy_volume": 11116949
+    },
+    {
+        "type_id": 233,
+        "avg_volume_per_day": 241189.7142857143,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 65862.28571428571,
+        "min_sell_price": 119.4,
+        "max_buy_price": 113.0,
+        "total_sell_volume": 6124702,
+        "total_buy_volume": 12831679
+    },
+    {
+        "type_id": 229,
+        "avg_volume_per_day": 238822.14285714287,
+        "avg_daily_bought": 144370.42857142858,
+        "avg_daily_sold": 26995.428571428572,
+        "min_sell_price": 76.65,
+        "max_buy_price": 55.02,
+        "total_sell_volume": 3781114,
+        "total_buy_volume": 11503627
+    },
+    {
+        "type_id": 43,
+        "avg_volume_per_day": 231445.57142857142,
+        "avg_daily_bought": 213059.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 305.5,
+        "max_buy_price": 20.12,
+        "total_sell_volume": 772,
+        "total_buy_volume": 388533
+    },
+    {
+        "type_id": 192,
+        "avg_volume_per_day": 204040.14285714287,
+        "avg_daily_bought": 53736.857142857145,
+        "avg_daily_sold": 42334.857142857145,
+        "min_sell_price": 96.15,
+        "max_buy_price": 68.2,
+        "total_sell_volume": 8087510,
+        "total_buy_volume": 11037723
+    },
+    {
+        "type_id": 196,
+        "avg_volume_per_day": 201063.14285714287,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 101.2,
+        "max_buy_price": 87.0,
+        "total_sell_volume": 339481,
+        "total_buy_volume": 10265864
+    },
+    {
+        "type_id": 226,
+        "avg_volume_per_day": 190512.57142857142,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 35.77,
+        "max_buy_price": 10.0,
+        "total_sell_volume": 1818064,
+        "total_buy_volume": 13978972
+    },
+    {
+        "type_id": 234,
+        "avg_volume_per_day": 180456.0,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 9011.42857142857,
+        "min_sell_price": 104.0,
+        "max_buy_price": 64.01,
+        "total_sell_volume": 916469,
+        "total_buy_volume": 11058611
+    },
+    {
+        "type_id": 182,
+        "avg_volume_per_day": 180403.57142857142,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 48313.142857142855,
+        "min_sell_price": 15.8,
+        "max_buy_price": 9.08,
+        "total_sell_volume": 1455482,
+        "total_buy_volume": 14303534
+    },
+    {
+        "type_id": 197,
+        "avg_volume_per_day": 168043.14285714287,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 3871.5714285714284,
+        "min_sell_price": 89.0,
+        "max_buy_price": 61.0,
+        "total_sell_volume": 1983070,
+        "total_buy_volume": 10442704
+    },
+    {
+        "type_id": 181,
+        "avg_volume_per_day": 140640.0,
+        "avg_daily_bought": 131011.85714285714,
+        "avg_daily_sold": 9628.142857142857,
+        "min_sell_price": 13.89,
+        "max_buy_price": 5.68,
+        "total_sell_volume": 24294923,
+        "total_buy_volume": 11795261
+    },
+    {
+        "type_id": 180,
+        "avg_volume_per_day": 132907.85714285713,
+        "avg_daily_bought": 11886.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 6.21,
+        "max_buy_price": 6.2,
+        "total_sell_volume": 990722,
+        "total_buy_volume": 14735701
+    },
+    {
+        "type_id": 179,
+        "avg_volume_per_day": 128559.85714285714,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 59854.28571428572,
+        "min_sell_price": 12.5,
+        "max_buy_price": 7.35,
+        "total_sell_volume": 3121181,
+        "total_buy_volume": 34841657
+    },
+    {
+        "type_id": 41,
+        "avg_volume_per_day": 115275.0,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 31875.428571428572,
+        "min_sell_price": 912.0,
+        "max_buy_price": 20.75,
+        "total_sell_volume": 279591,
+        "total_buy_volume": 21588973
+    },
+    {
+        "type_id": 27513,
+        "avg_volume_per_day": 111824.85714285714,
+        "avg_daily_bought": 111824.85714285714,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 1518.0,
+        "max_buy_price": 888.7,
+        "total_sell_volume": 318166,
+        "total_buy_volume": 620000
+    },
+    {
+        "type_id": 190,
+        "avg_volume_per_day": 103468.28571428571,
+        "avg_daily_bought": 49234.57142857143,
+        "avg_daily_sold": 21564.85714285714,
+        "min_sell_price": 73.92,
+        "max_buy_price": 46.17,
+        "total_sell_volume": 3726973,
+        "total_buy_volume": 10944535
+    },
+    {
+        "type_id": 27331,
+        "avg_volume_per_day": 94843.42857142857,
+        "avg_daily_bought": 25857.285714285714,
+        "avg_daily_sold": 43736.71428571428,
+        "min_sell_price": 39.89,
+        "max_buy_price": 7.02,
+        "total_sell_volume": 8266646,
+        "total_buy_volume": 12637516
+    },
+    {
+        "type_id": 27445,
+        "avg_volume_per_day": 82990.71428571429,
+        "avg_daily_bought": 3962.8571428571427,
+        "avg_daily_sold": 67169.57142857143,
+        "min_sell_price": 1225.0,
+        "max_buy_price": 1016.0,
+        "total_sell_volume": 333720,
+        "total_buy_volume": 10051567
+    },
+    {
+        "type_id": 27379,
+        "avg_volume_per_day": 75101.14285714286,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 190.0,
+        "max_buy_price": 73.3,
+        "total_sell_volume": 7798381,
+        "total_buy_volume": 12169514
+    },
+    {
+        "type_id": 188,
+        "avg_volume_per_day": 72797.0,
+        "avg_daily_bought": 6998.571428571428,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 24.5,
+        "max_buy_price": 18.65,
+        "total_sell_volume": 5348085,
+        "total_buy_volume": 10583551
+    },
+    {
+        "type_id": 186,
+        "avg_volume_per_day": 70054.85714285714,
+        "avg_daily_bought": 30814.285714285714,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 17.9,
+        "max_buy_price": 16.8,
+        "total_sell_volume": 19445549,
+        "total_buy_volume": 11384244
+    },
+    {
+        "type_id": 27459,
+        "avg_volume_per_day": 68510.57142857143,
+        "avg_daily_bought": 4285.714285714285,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 2870.0,
+        "max_buy_price": 2100.0,
+        "total_sell_volume": 586125,
+        "total_buy_volume": 11641540
+    },
+    {
+        "type_id": 27391,
+        "avg_volume_per_day": 56026.28571428572,
+        "avg_daily_bought": 6437.0,
+        "avg_daily_sold": 18228.285714285714,
+        "min_sell_price": 910.1,
+        "max_buy_price": 718.8,
+        "total_sell_volume": 1120567,
+        "total_buy_volume": 10040500
+    },
+    {
+        "type_id": 27519,
+        "avg_volume_per_day": 53645.71428571428,
+        "avg_daily_bought": 14822.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 1476.0,
+        "max_buy_price": 1186.0,
+        "total_sell_volume": 400865,
+        "total_buy_volume": 10000480
+    },
+    {
+        "type_id": 1229,
+        "avg_volume_per_day": 52961.142857142855,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 41963.857142857145,
+        "min_sell_price": 3296.0,
+        "max_buy_price": 3211.0,
+        "total_sell_volume": 217769,
+        "total_buy_volume": 414442
+    },
+    {
+        "type_id": 198,
+        "avg_volume_per_day": 50007.28571428572,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 32604.85714285714,
+        "min_sell_price": 139.0,
+        "max_buy_price": 118.0,
+        "total_sell_volume": 2705464,
+        "total_buy_volume": 10708264
+    },
+    {
+        "type_id": 27319,
+        "avg_volume_per_day": 46071.0,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 34.75,
+        "max_buy_price": 6.0,
+        "total_sell_volume": 5387671,
+        "total_buy_volume": 10063135
+    },
+    {
+        "type_id": 187,
+        "avg_volume_per_day": 42732.0,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 32047.571428571428,
+        "min_sell_price": 18.34,
+        "max_buy_price": 15.06,
+        "total_sell_volume": 2134756,
+        "total_buy_volume": 15446922
+    },
+    {
+        "type_id": 264,
+        "avg_volume_per_day": 29482.85714285714,
+        "avg_daily_bought": 2278.4285714285716,
+        "avg_daily_sold": 6402.428571428572,
+        "min_sell_price": 948.0,
+        "max_buy_price": 509.0,
+        "total_sell_volume": 53769,
+        "total_buy_volume": 10437582
+    },
+    {
+        "type_id": 1226,
+        "avg_volume_per_day": 29180.428571428572,
+        "avg_daily_bought": 29180.428571428572,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 573.1,
+        "max_buy_price": 573.0,
+        "total_sell_volume": 337748,
+        "total_buy_volume": 187391
+    },
+    {
+        "type_id": 33577,
+        "avg_volume_per_day": 26224.571428571428,
+        "avg_daily_bought": 22667.571428571428,
+        "avg_daily_sold": 3557.0,
+        "min_sell_price": 458000.0,
+        "max_buy_price": 448700.0,
+        "total_sell_volume": 19555,
+        "total_buy_volume": 58034
+    },
+    {
+        "type_id": 32782,
+        "avg_volume_per_day": 18738.14285714286,
+        "avg_daily_bought": 1339.857142857143,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 7.0,
+        "max_buy_price": 2.0,
+        "total_sell_volume": 14687980,
+        "total_buy_volume": 10033258
+    },
+    {
+        "type_id": 33337,
+        "avg_volume_per_day": 17447.85714285714,
+        "avg_daily_bought": 810.8571428571429,
+        "avg_daily_sold": 5198.714285714285,
+        "min_sell_price": 39670.0,
+        "max_buy_price": 35670.0,
+        "total_sell_volume": 769804,
+        "total_buy_volume": 8230
+    },
+    {
+        "type_id": 81975,
+        "avg_volume_per_day": 7998.857142857143,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": null,
+        "max_buy_price": 1000000.0,
+        "total_sell_volume": 0,
+        "total_buy_volume": 100001
+    },
+    {
+        "type_id": 33195,
+        "avg_volume_per_day": 7960.571428571428,
+        "avg_daily_bought": 2594.8571428571427,
+        "avg_daily_sold": 0.0,
+        "min_sell_price": 14020.0,
+        "max_buy_price": 2020.0,
+        "total_sell_volume": 11907,
+        "total_buy_volume": 207780
+    },
+    {
+        "type_id": 1232,
+        "avg_volume_per_day": 7005.428571428572,
+        "avg_daily_bought": 0.0,
+        "avg_daily_sold": 6320.571428571428,
+        "min_sell_price": 15000.0,
+        "max_buy_price": 6850.0,
+        "total_sell_volume": 3064,
+        "total_buy_volume": 18282
+    },
+    {
+        "type_id": 33539,
+        "avg_volume_per_day": 6909.0,
+        "avg_daily_bought": 2760.5714285714284,
+        "avg_daily_sold": 588.0,
+        "min_sell_price": 490000.0,
+        "max_buy_price": 450000.0,
+        "total_sell_volume": 7461,
+        "total_buy_volume": 8432
+    }
+]
