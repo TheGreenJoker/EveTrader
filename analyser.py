@@ -1,3 +1,6 @@
+from downloader import get_item_name
+
+
 def calculate_profit_percent(item):
     """
     Calcule le profit en % entre ordre d'achat max et ordre de vente min.
@@ -41,13 +44,49 @@ def filter_items(items, min_profit_percent, min_volume_per_day):
     return filtered_final
 
 
+import downloader as d
+
 def print_filtered_items(items):
     """
-    Affiche la liste filtrée de manière lisible.
+    Affiche la liste des items filtrés sous forme de tableau avec noms.
     """
+
+    widths = {
+        'type_id': 10,
+        'name': 30,
+        'profit_percent': 10,
+        'volume': 12,
+        'min_sell_price': 15,
+        'max_buy_price': 15
+    }
+
+    header = (
+        f"{'Type ID':<{widths['type_id']}} | "
+        f"{'Nom':<{widths['name']}} | "
+        f"{'Profit %':>{widths['profit_percent']}} | "
+        f"{'Volume/jour':>{widths['volume']}} | "
+        f"{'Prix vente min':>{widths['min_sell_price']}} | "
+        f"{'Prix achat max':>{widths['max_buy_price']}}"
+    )
+    print(header)
+    print('-' * len(header))
+
     for item in items:
-        print(f"Type ID: {item['type_id']} | "
-              f"Profit: {item.get('profit_percent', 0):.2f}% | "
-              f"Volume/jour: {item.get('avg_volume_per_day', 0):.0f} | "
-              f"Sell Price: {item.get('min_sell_price')} | "
-              f"Buy Price: {item.get('max_buy_price')}")
+        type_id = item.get('type_id', 'N/A')
+        name = get_item_name(type_id)
+        profit = item.get('profit_percent', 0.0)
+        volume = int(item.get('avg_volume_per_day', 0))
+        min_sell = item.get('min_sell_price', 'N/A')
+        max_buy = item.get('max_buy_price', 'N/A')
+
+        line = (
+            f"{str(type_id):<{widths['type_id']}} | "
+            f"{name[:widths['name']]:<{widths['name']}} | "
+            f"{profit:>{widths['profit_percent']}.2f} | "
+            f"{volume:>{widths['volume']}} | "
+            f"{min_sell:>{widths['min_sell_price']}} | "
+            f"{max_buy:>{widths['max_buy_price']}}"
+        )
+        print(line)
+
+    print()

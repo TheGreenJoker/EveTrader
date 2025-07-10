@@ -31,10 +31,9 @@ def analyse_from_local(min_profit_percent, min_volume_per_day, json_filename):
     a.print_filtered_items(filtered_items)
 
 
-
 if __name__ == "__main__":
-    min_profit_percent = 0.0
-    min_volume_per_day = 0
+    min_profit_percent = 20.0
+    min_volume_per_day = 100
     fetch_data = False
 
     if fetch_data:

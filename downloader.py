@@ -1,12 +1,34 @@
 import requests
 import time
 
+
+_item_name_cache = {}
+def get_item_name(type_id):
+    """
+    Récupère le nom d’un item EVE Online via l’ESI.
+    Utilise un cache simple pour éviter les appels répétés.
+    """
+    if type_id in _item_name_cache:
+        return _item_name_cache[type_id]
+    
+    url = f"https://esi.evetech.net/latest/universe/types/{type_id}/"
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+        name = data.get("name", f"Unknown-{type_id}")
+        _item_name_cache[type_id] = name
+        return name
+    else:
+        return f"Unknown-{type_id}"
+
+
 def get_all_type_ids(region_id):
     """Récupère tous les type_id disponibles pour le marché d'une région."""
     url = f"https://esi.evetech.net/latest/markets/{region_id}/types/"
     response = requests.get(url)
     response.raise_for_status()
     return response.json()
+
 
 def get_average_volume_per_day(region_id, type_id, days=7):
     """Retourne la moyenne du volume vendu par jour pour un type_id sur les derniers jours."""
@@ -20,6 +42,7 @@ def get_average_volume_per_day(region_id, type_id, days=7):
     recent_days = history[-days:]
     avg_volume = sum(day['volume'] for day in recent_days) / len(recent_days)
     return avg_volume
+
 
 def get_market_orders(region_id, order_type):
     assert order_type in ['buy', 'sell']
@@ -42,9 +65,11 @@ def get_market_orders(region_id, order_type):
     print(f"  ✓  {order_type} orders récupérés")
     return orders
 
+
 def filter_orders_by_item_and_station(orders, type_id, station_id):
     """Filtre les ordres pour un item donné et une station spécifique."""
     return [o for o in orders if o['type_id'] == type_id and o['location_id'] == station_id]
+
 
 def summarize_item_market_data(type_id, region_id, station_id, avg_volume, sell_orders, buy_orders):
     """Produit un résumé des données de marché pour un item donné."""
@@ -64,6 +89,7 @@ def summarize_item_market_data(type_id, region_id, station_id, avg_volume, sell_
         'total_sell_volume': total_sell_volume,
         'total_buy_volume': total_buy_volume
     }
+
 
 def get_top_traded_items(region_id, station_id, top_n=100):
     """Orchestre le traitement complet : top items vendus avec données marché."""

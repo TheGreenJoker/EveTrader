@@ -1,5 +1,6 @@
 import json
 
+
 def save_items_to_json(items_data, filename="top_items.json"):
     """
     Sauvegarde une liste d’items dans un fichier JSON.
@@ -10,6 +11,7 @@ def save_items_to_json(items_data, filename="top_items.json"):
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(items_data, f, ensure_ascii=False, indent=4)
     print(f"{len(items_data)} items enregistrés dans '{filename}'")
+
 
 def load_items_from_json(filename="top_items.json"):
     import json
