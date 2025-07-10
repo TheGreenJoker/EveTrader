@@ -3,12 +3,12 @@ def calculate_profit_percent(item):
     Calcule le profit en % entre ordre d'achat max et ordre de vente min.
     Retourne None si pas possible.
     """
-    min_sell = item.get('min_sell_price')
-    max_buy = item.get('max_buy_price')
+    min_sell = item['min_sell_price']
+    max_buy = item['max_buy_price']
     
     if min_sell is None or max_buy is None or min_sell == 0:
         return None
-    return ((max_buy - min_sell) / min_sell) * 100
+    return ((min_sell / max_buy) - 1) * 100
 
 
 def filter_by_profit(items, min_profit_percent):
@@ -29,7 +29,7 @@ def filter_by_volume(items, min_volume_per_day):
     """
     Filtre les items dont le volume vendu par jour est supérieur au seuil.
     """
-    return [item for item in items if item.get('avg_volume_per_day', 0) > min_volume_per_day]
+    return [item for item in items if item['avg_volume_per_day'] > min_volume_per_day]
 
 
 def filter_items(items, min_profit_percent, min_volume_per_day):
